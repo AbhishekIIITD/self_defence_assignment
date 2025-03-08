@@ -43,9 +43,9 @@ export default function Register() {
       setFormData({ name: '', email: '', phone: '', program: '', agreeToTerms: false });
   
       // WhatsApp message redirect
-      const message = `Hello ${formData.name}, thank you for your interest in our ${formData.program} program! We'll send details shortly.`;
-      const encodedMessage = encodeURIComponent(message);
-      window.open(`https://wa.me/${formData.phone}?text=${encodedMessage}`, '_blank');
+      // const message = `Hello ${formData.name}, thank you for your interest in our ${formData.program} program! We'll send details shortly.`;
+      // const encodedMessage = encodeURIComponent(message);
+      // window.open(`https://wa.me/${formData.phone}?text=${encodedMessage}`, '_blank');
       
     } catch (err) {
       setError('Failed to register. Please try again later.');
