@@ -46,13 +46,13 @@ const DefenseNavigation = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="absolute top-16 left-0 right-0 bg-white shadow-md md:hidden z-10">
-          <ul className="flex flex-col space-y-2 px-6 py-4">
-            <li><a href="/" className="block font-medium text-red-500 py-2">HOME</a></li>
-            <li><a href="#events" className="block font-medium text-gray-600 hover:text-red-500 py-2">EVENTS</a></li>
-            <li><a href="#programs" className="block font-medium text-gray-600 hover:text-red-500 py-2">PROGRAMS</a></li>
-            <li><a href="#footer" className="block font-medium text-gray-600 hover:text-red-500 py-2">CONTACTS</a></li>
-            <li><a href="/register" className="block font-medium text-gray-600 hover:text-red-500 py-2">REGISTER</a></li>
+        <div className="absolute top-0 left-0 w-full h-screen bg-white/90 shadow-md md:hidden z-50 flex flex-col items-center justify-center">
+          <ul className="space-y-4 text-center">
+            <li><a href="/" className="block font-medium text-red-500 text-lg" onClick={toggleMenu}>HOME</a></li>
+            <li><a href="#events" className="block font-medium text-gray-600 hover:text-red-500 text-lg" onClick={toggleMenu}>EVENTS</a></li>
+            <li><a href="#programs" className="block font-medium text-gray-600 hover:text-red-500 text-lg" onClick={toggleMenu}>PROGRAMS</a></li>
+            <li><a href="#footer" className="block font-medium text-gray-600 hover:text-red-500 text-lg" onClick={toggleMenu}>CONTACTS</a></li>
+            <li><a href="/register" className="block font-medium text-gray-600 hover:text-red-500 text-lg" onClick={toggleMenu}>REGISTER</a></li>
           </ul>
         </div>
       )}
