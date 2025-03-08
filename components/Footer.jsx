@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="flex justify-center md:justify-start mb-6">
               <div className="relative w-48 h-16">
                 <Image 
-                  src="/logo.png" 
+                  src="/Logo.png" 
                   alt="Defense Academy Logo"
                   fill
                   style={{ objectFit: 'contain' }}
