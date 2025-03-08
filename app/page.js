@@ -5,8 +5,8 @@ import TrainingPrograms from "@/components/SpecialityHome";
 import TrainingExcellence from "@/components/TrainingFeaturesHome";
 import Image from "next/image";
 import TrainingForGender from "@/components/GenderTraining";
-import ReviewsSection from "@/Components/ReviewSection";
-import Footer from "@/Components/Footer";
+import ReviewsSection from "@/components/ReviewSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
