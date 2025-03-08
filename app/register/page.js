@@ -112,7 +112,7 @@ export default function Register() {
             {submitSuccess ? (
               <div className="text-center py-8">
                 <h3 className="text-green-700 text-xl font-semibold mb-4">Registration Successful!</h3>
-                <p className="mb-6">Thank you for registering. We'll send you program details via WhatsApp shortly.</p>
+                <p className="mb-6 text-black">Thank you for registering. We'll send you program details via WhatsApp shortly.</p>
                 <button 
                   className="bg-red-700 hover:bg-red-800 text-white font-semibold py-3 px-6 rounded transition-colors"
                   onClick={() => setSubmitSuccess(false)}
